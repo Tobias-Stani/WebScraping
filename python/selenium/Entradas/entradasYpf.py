@@ -34,7 +34,7 @@ def findMatch(driver):
     if matching_count > 0:
         print(f"\nSe encontraron {matching_count} productos con las palabras clave.")
     else:
-        print("\nNo se encontraron productos con la palabras clave.")
+        print("\nNo se encontraron productos con las palabras clave.")
 
 def main():
     driver = setup_driver()  
