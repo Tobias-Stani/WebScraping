@@ -11,9 +11,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 # Cargar las variables de entorno desde el archivo .env
-load_dotenv(dotenv_path='/home/tobi/develop/scraping/.env.local')  # Asegúrate de tener el path correcto
+load_dotenv(dotenv_path='/home/tobi/develop/scraping/.env.local')  
 
-# Acceder a las variables de entorno
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
